@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	background-image: url(orig.gif);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#score {
+	width: 632px;
+	height: 60px;
+	padding-top: 5px;
+	margin: 50px auto;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-image: url(canvas_bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+#canv {
+	width: 632px;
+	height: 632px;
+	display: block;
+	margin: 30px auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background: #fff;
+	background-image: url(sd.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#canvas {
+	width: 632px;
+	height: 632px;
+	display: block;
+	margin: 30px auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-image: url(canvas_bg.jpg);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+#keyLeft, #keyUp, #keyCenter, #keyRight, #keyDown {
+	width: 204px;
+	height: 120px;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-image: url(canvas_bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-top: 30px;
+}
+#keyLeft, #keyCenter, #keyRight {
+	float: left;
+}
+#keyUp, #middle, #keyDown {
+	margin: 20px auto;
+}
+#middle {
+	width: 632px;
+}
+#keyUp {
+	margin-top: 150px;
+}
+#keyCenter, #keyRight {
+	margin-left: 10px;
+}
